@@ -1,4 +1,4 @@
-FROM postgres:latest
+FROM postgres:11.6
 MAINTAINER Cristoffer Fairweather <cfairweather@annixa.com> # Previously Ilya Stepanov <dev@ilyastepanov.com>
 
 RUN apt-get update && \
