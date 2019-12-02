@@ -1,5 +1,4 @@
-FROM postgres:11.6
-MAINTAINER Cristoffer Fairweather <cfairweather@annixa.com> # Previously Ilya Stepanov <dev@ilyastepanov.com>
+FROM docker.io/bitnami/postgresql:11.6.0-debian-9-r0
 
 RUN apt-get update && \
     apt-get install -y cron && \
